@@ -31,9 +31,9 @@ class HashTable:
 
 
 hash_table = HashTable(256)
-hash_table.set_value('arman@gmail.com', 'Arman Avetisyan,1993,Armenia')
-hash_table.set_value('arman@gmail.com', 'Arman Harutyunyan,1995,USA')
-hash_table.set_value('nicole@gmail.com', 'Nicol Fry,2000,UK')
+hash_table.set_value('Jhon@gmail.com', 'Jhon Smith,1993,UK')
+hash_table.set_value('Jhon@gmail.com', 'Jhon Anderson,1995,USA')
+hash_table.set_value('nicole@gmail.com', 'Nicol Fry,2000,Spain')
 print(hash_table)
-print(hash_table.get_value('arman@gmail.com'))
+print(hash_table.get_value('Jhon@gmail.com'))
 print(hash_table.get_value('nicole@gmail.com'))
